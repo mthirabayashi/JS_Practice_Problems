@@ -2,7 +2,7 @@ var rockPaperScissors = require('../../lib/random/rock_paper_scissors.js');
 var expect = require('chai').expect;
 
 describe('rockPaperScissors', function(){
-  describe('smoke tests', function() {
+  describe('Smoke tests', function() {
     it('should exist', function() {
       expect(rockPaperScissors).to.exist;
     });
